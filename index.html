@@ -7,6 +7,7 @@
   <meta name ="vardas" content="Dangiras Grušas">
   <meta name ="grupė" content="Ef-23/1">
   <link href="Images/favicon.png" rel="icon">
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -77,6 +78,10 @@
         </div>
   
     </section><!-- /About Section -->
+    <div class="clock-container">
+      <h1>Laikas dabar:</h1>
+      <div id="clock">00:00:00</div>
+    </div>
     <!-- Resume Section -->
     <section id="resume" class="resume section">
 
@@ -94,13 +99,48 @@
   
               <div class="resume-item pb-0">
                 <h4>Dangiras Grušas</h4>
+                <math xmlns="https://www.w3.org/TR/MathML3/" display="block">
+                  <mi>σ</mi>
+                  <mo>=</mo>
+                  <msqrt>
+                      <mrow>
+                          <mfrac>
+                              <mn>1</mn>
+                              <mi>N</mi>
+                          </mfrac>
+                          <mo>⋅</mo>
+                          <mrow>
+                            <munderover>
+                              <mo stretchy="true" form="prefix">&sum;</mo>
+                              <mrow>
+                                <mi>i</mi>
+                                <mo form="infix">=</mo>
+                                <mn>1</mn>
+                              </mrow>
+                              <mi>N</mi>
+                            </munderover>
+                          </mrow>
+                          <mo>(</mo>
+                          <msub>
+                              <mi>x</mi>
+                              <mi>i</mi>
+                          </msub>
+                          <mo>−</mo>
+                          <mi>μ</mi>
+                          <msup>
+                              <mo>)</mo>
+                              <mn>2</mn>
+                          </msup>
+                      </mrow>
+                  </msqrt>
+              </math>
                 <p><em>Innovative up-and-coming engineer with 2 months of experience maintaining telecomunication towers and surveillance systems</em></p>
                 <ul>
                   <li>Kareivių 20,Vilnius, LT</li>
                   <li>(370) 68916556</li>
                   <li>dangiras.grusas@stud.vilniustech.lt</li>
                 </ul>
-              </div><!-- Edn Resume Item -->
+              </div><!-- End Resume Item -->
   
               <h3 class="resume-title">Education</h3>
               <div class="resume-item">
