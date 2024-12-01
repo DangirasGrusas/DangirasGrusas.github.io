@@ -206,6 +206,7 @@ body {
     font-size: 1rem;
     transition: color 0.3s ease; 
 }
+
 .footer {
     background-color: var(--background-color); 
     color: white; 
@@ -240,13 +241,32 @@ body {
     color: var(--text-color);
     font-size: 1.5rem;
 }
+
 #fb_icon{
     width: 80px;
 }
+
 #x_icon{
     width: 80px;
     background-color: #fff;
 }
+
 #insta_icon{
     width: 80px;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: (var(--text-color));
+    padding: 10px 20px;
+    border: 2px solid var(--text-color);
+    border-radius: 8px;
+    display: inline-block;
+    background-color: var(--background-color);
 }
