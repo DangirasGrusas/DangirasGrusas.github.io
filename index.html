@@ -275,20 +275,67 @@
   
   </section><!-- /Services Section -->  
 
-    <section>
-      <video autoplay muted loop id="myVideo">
-        <source src="Images/video.mp4" type="video/mp4">
-      </video>
-    </section>
-    <section>
-      <iframe width="697" height="392" src="https://www.youtube.com/embed/Ba4zFDpCwek" title="Tokyo Drift Edit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-    <section>
-      <audio controls>
-        <source src="Images/Tokyo_Drift.mp3" type="audio/mpeg">
-      </audio> 
-    </section>
-    <script src="functions.js"></script>
+  <section>
+    <video autoplay muted loop id="myVideo">
+      <source src="Images/video.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <iframe width="697" height="392" src="https://www.youtube.com/embed/Ba4zFDpCwek" title="Tokyo Drift Edit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+  <section>
+    <audio controls>
+      <source src="Images/Tokyo_Drift.mp3" type="audio/mpeg">
+    </audio> 
+  </section>
+  <fieldset>
+    <legend>Personal Details</legend>
+    <form>
+        <p><label>First Name:</label><br> 
+          <input id="first-name-id" type="text" name="first-name" required/>
+        </p>
+        <p><label>Last Name:</label><br>
+          <input id="last-name-id" type="text" name="last-name" required/>
+        </p>
+        <p>
+          <label>Email:</label><br>
+          <input id="email-id" type="tel" name="tel" required/>
+        </p>
+        <p>
+          <label>Telephone number:</label><br>
+          <input id="telephone-number-id" type="email" name="email" required/>
+        </p>
+        <p>
+          <label>Address:</label><br>
+          <textarea id="address-id" name="address" rows="3" cols="50" required></textarea>
+        </p>
+        <p>
+          <label>Math grade:</label><br>
+          <input id="math-id" type="number" name="number" min="5" max="10" required/>
+        </p>
+        <p>
+          <label>Physics grade:</label><br>
+          <input id="physics-id" type="number" name="number" min="5" max="10" required/>
+        </p>
+        <p>
+          <label>Programming grade:</label><br>
+          <input id="programming-id" type="number" name="number" min="5" max="10" required/>
+        </p>
+        <p>
+          <label>Economy grade:</label><br>
+          <input id="economy-id" type="number" name="number" min="5" max="10" required/>
+        </p>
+        <p>
+          <label>Communications grade:</label><br>
+          <input id="communications-id" type="number" name="number" min="5" max="10" required/>
+        </p>
+        <p>
+          <button id="submit-id" name="submit" type="button">Submit</button>
+        </p>
+    </form>
+  </fieldset>
+  <div id="output"></div>
+  <script src="functions.js"></script>
   <footer class="footer" id="footer">
       <div class="container">
           <p>Dangiras Grušas<br><br>dangiras.grusas@stud.vinliustech.lt</p>
